@@ -35,7 +35,7 @@
   color: white;
   text-shadow: 1px 1px 0 black;
   text-align: center;
-  padding-top: 6%;
+  top: 5vh;
 }
 .works_title h1 {
   font-size: 60px;
@@ -48,11 +48,11 @@
 }
 .works_txt {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   line-height: 7vh;
-  padding-top: 5%;
+  padding-top: 7%;
 }
 .works_content_wrapper {
   display: flex;
@@ -105,7 +105,7 @@
 }
 .company_title {
   position: absolute;
-  top: 3vh;
+  top: 5vh;
   left: 8vh;
   text-shadow: 1px 1px 0 black;
 }
@@ -121,7 +121,7 @@
   padding-left: 2%;
 }
 .company_txt {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 7vh;
   padding-top: 20vh;
