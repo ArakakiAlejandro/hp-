@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.business_wrapper {
+  position: relative;
+  width: 100%;
+  height: 108vh;
+  bottom: 5vh;
+}
+.business_content {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 1vh;
+  top: 12vh;
+  left: 5vh;
+}
+.business_img {
+  position: absolute;
+  background: url(../img/pexels-mikael-blomkvist-8961130.jpg) no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 54vh;
+  top:30vh;
+  z-index: 2;
+}
+.business_detail_inner {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  background-color: rgb(52, 112, 183);
+  left: 30%;
+  z-index: 1;
+  color: white;
+}
+.business_title {
+  position: relative;
+}
+.business_title h1{
+  position: absolute;
+  font-size: 60px;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.business_title h3 {
+  position: absolute;
+  font-size: 35px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px black;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.business_title h3 span {
+  margin-left: 10px;
+}
+.business_txt {
+  position: absolute;
+  top: 30vh;
+  left: 40vh;
+  line-height: 8vh;
+}
+.business_txt p {
+  font-size: 30px;
+  font-weight: 600;
+}
+.service_wrapper {
+  position: relative;
+  width: 100%;
+  height: 175vh;
+  margin-bottom: 5%;
+  bottom: 5vh;
+}
+.service_inner_1 {
+  position: relative;
+  background-color: rgb(52, 112, 183);
+  width: 50%;
+  height: 65vh;
+  color: white;
+}
+.service_title {
+  position: absolute;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  font-weight: 600;
+  top: 5vh;
+}
+.service_txt {
+  position: absolute;
+  top: 17vh;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 6vh;
+}
+.service_txt p {
+  font-size: 30px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.service_block_1 {
+  position: absolute;
+  width: 50%;
+  height: 25vh;
+  background-color: rgb(217, 217, 217);
+  right: 0;
+  top: 38vh;
+  z-index: 1;
+}
+.service_img_1 {
+  position: absolute;
+  top: 52vh;
+  right: 13vh;
+  z-index: 2;
+}
+.service_inner_2 {
+  position: relative;
+  background-color: rgb(52, 112, 183);
+  width: 50%;
+  height: 60vh;
+  color: white;
+  top: 50vh;
+  left: 100%;
+  transform: translateX(-100%);
+}
+.service_block_2 {
+  position: absolute;
+  width: 50%;
+  height: 20vh;
+  background-color: rgb(217, 217, 217);
+  left: 0;
+  bottom: 43vh;
+  z-index: 1;
+}
+.service_img_2 {
+  position: absolute;
+  bottom: 53vh;
+  left: 12vh;
+  z-index: 2;
+}
